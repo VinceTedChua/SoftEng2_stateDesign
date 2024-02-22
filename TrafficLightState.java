@@ -1,6 +1,6 @@
 public interface TrafficLightState {
-    public void switchState (TrafficLightControl controller);
+    public void switchState (TrafficLightController controller);
     public String getColor();
-    
+
 
 }
